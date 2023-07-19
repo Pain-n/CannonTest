@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1149d6c5d114bd4d8509302bdd23905, type: 3}
+  m_Name: UpgradeList
+  m_EditorClassIdentifier: 
+  UpgradeList:
+  - UpgradeType: 0
+    CurrentLvl: 0
+    UpgradeStages:
+    - Value: 0.7
+      Cost: 3
+    - Value: 0.4
+      Cost: 5
+    - Value: 0.1
+      Cost: 10
+  - UpgradeType: 1
+    CurrentLvl: 0
+    UpgradeStages:
+    - Value: 2
+      Cost: 3
+    - Value: 3
+      Cost: 5
+    - Value: 5
+      Cost: 10
